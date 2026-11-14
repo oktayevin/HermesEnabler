@@ -37,7 +37,7 @@ permissions:
 
 jobs:
   build:
-    # Same self-hosted runner as the 51Digital app: it has Xcode 27, which the
+    # Self-hosted runner with Xcode 27, which the
     # watchOS 27 SDK requires. GitHub-hosted macOS images don't ship Xcode 27 yet.
     runs-on: xcode-27
     timeout-minutes: 75
